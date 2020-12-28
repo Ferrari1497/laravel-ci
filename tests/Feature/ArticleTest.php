@@ -10,7 +10,7 @@ use Tests\TestCase;
 
 class ArticleTest extends TestCase
 {
-    use RefreshDatabase;
+    use RefreshDatabase;//DBの中身をリフレッシュ
 
     public function testIsLikedByNull()
     {
